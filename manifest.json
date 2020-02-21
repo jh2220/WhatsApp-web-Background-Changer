@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Whatsapp Background Changer",
+    "description": "Set your fave URL image in background Whatsapp background",
+    "version": "1.0",
+    
+    "author": "Web Last Wolf",
+    
+    "browser_action": {
+   	 "default_title": "Whatsapp Background Changer",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    },
+    
+    "content_scripts": [
+    	{
+    		"matches": [
+                "http://web.whatsapp.com/",
+                "https://web.whatsapp.com/"
+            ],
+    		"js": ["script.js"]
+    	}
+
+    ],
+
+    "permissions": [
+        "activeTab"
+    ]
+}
