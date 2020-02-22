@@ -9,7 +9,7 @@
     
     "browser_action": {
    	 "default_title": "Whatsapp Background Changer",
-   	 "default_popup": "index.html",
+   	 "default_popup": "popup.html",
    	 "default_icon": "icon.png"
     },
     
@@ -19,7 +19,7 @@
                 "http://web.whatsapp.com/",
                 "https://web.whatsapp.com/"
             ],
-    		"js": ["script.js"]
+    		"js": ["assets/js/main.js"]
     	}
 
     ],

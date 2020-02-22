@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello World</title>
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<style>
+		
+		body{
+
+			margin: 0;
+			padding: 10px 25px;
+			font-family: 'Roboto';
+
+			color: #333;
+
+		}
+
+		.url-box-content{
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+
+		#imgUrl{
+
+			border: none;
+			border-bottom: 1.3px solid #ddd;
+			text-align: center;
+			outline: transparent;
+
+			padding: 2px;
+
+		}
+
+		#imgUrlUnderBar{
+
+			display: flex;
+			width: 0%;
+			height: 1.3px;
+			background: #09f;
+
+			margin-top: -2px;
+
+
+		}
+
+		.clear-box-content{
+
+			display: flex;
+			width: 100%;
+			margin-top: 6px;
+			align-items: flex-end;
+			flex-direction: column;
+
+		}
+
+		#clearUrl{
+
+			font-size: 14px;
+
+			text-decoration: none;
+			color: #09f;
+
+		}
+
+	</style>
+
+</head>
+<body>
+    
+    <div class="url-box-content">
+    	<input id="imgUrl" type="text" name="imgUrl" placeholder="Set your URL IMG here">
+    	<span id="imgUrlUnderBar"></span>
+    </div>
+
+    <div class="clear-box-content">
+    	<a href="#" id="clearUrl">Clear background <i class="fas fa-eraser"></i></a>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/changer.js"></script>
+
+</body>
+</html>
